@@ -1,0 +1,101 @@
+.Arial_Rd_Pink_34 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 34px;
+  color: #FF00CC;
+}
+
+.Arial_Rd_Red_40 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 40px;
+  color: #FF0033;
+}
+
+.Arial_Rd_DkGreen_40 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 40px;
+  color: #006600;
+}
+
+.Arial_Rd_Grey_50 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 50px;
+  color: #606060;
+}
+
+.Arial_Rd_Grey_30 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 30px;
+  color: #606060;
+}
+
+.Arial_Rd_Grey_25 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 25px;
+  color: #606060;
+}
+
+
+.Arial_Rd_Grey_20 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 20px;
+  color: #606060;
+}
+
+
+.Arial_Rd_Red_20 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 20px;
+  color: #FF3399;
+  margin-bottom: -10px;
+}
+
+
+.line_height_150 {
+line-height:150%;
+}
+
+
+.Lucinda_red_20 {
+font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+ font-size: 20px;
+  color: #CC0066;
+}
+
+.font_nav_bar_quiz{
+ font-family: "Trebuchet MS", Arial, Verdana;
+font-size: 10pt;
+color: #B0B0B0;
+}
+
+.font_nav_bar_subj{
+ font-family: "Trebuchet MS", Arial, Verdana;
+font-size: 16pt;
+color: #999999;
+}
+
+.font_planet_para, .font_country_para, .font_species_para, .font_cities_para{
+ font-family: "Trebuchet MS", Arial, Verdana;
+font-size: 10pt;
+color: #B8B8B8;
+}
+
+.font_planet_para_bold{
+ font-family: "Trebuchet MS", Arial, Verdana;
+font-size: 10pt;
+color: #888888;
+font-weight: bold;
+}
+
+.font_planet_name, .font_country_name, .font_cities_name, .font_species_name {
+ font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+font-size: 14pt;
+color: #0066CC;
+}
+
+.solar_facts, .country_facts, .species_facts, .cities_facts{
+ font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+font-size: 18pt;
+color: #CC0099;
+margin-top: 10px;
+margin-left: 0px;
+}

@@ -1,0 +1,249 @@
+.grey_background {
+	background: #E8E8E8;
+}
+
+.Q1_background {
+  background: #F8F8F8;
+}
+
+.Q2_background {
+  background: #99CCFF;
+}
+
+.Q3_background {
+  background: #FFFFCC;
+}
+
+.green_background {
+  background: #99FFCC;
+}
+
+.purple_background {
+  background: #CCCCFF;
+}
+
+.orange_background {
+  background: #FFCC66;
+}
+
+#countdown {
+  width: 100px;
+  height: 65px;
+  margin-top: 15px;
+  padding-top: -5px;
+  float: left;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 50px;
+  font-weight:bold;
+  color: red;
+   /*background-color: #66ff66;*/
+   text-align: center;
+   vertical-align: middle;
+    border: 3px solid #CCFF33;
+}
+
+.stage_tick {
+  width: 100px;
+  height: 80px;
+  background-image: url(images/stage_tick.png);
+  float: left;
+}
+
+.stage_tick_none {
+  width: 100px;
+  height: 80px;
+  float: left;
+  display:none;
+}
+
+#slides_1, #slides_2, #slides_3, #slides_4, #slides_5, #slides_6, #slides_7, #slides_8     {
+  float: left;
+  background-image: url(images/tick.png);
+  display:none;
+}
+
+#slides {
+  float: left;
+  width: 200px;
+
+}
+
+.stage1, .stage2, .stage3, .stage4, .stage5{
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 34px;
+  text-align: left;
+  color: #66CD00;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#score_text {
+  width: 120px;
+  height: 70px;
+  padding-top: 30px;
+  padding-left: 30px;
+  float: left;
+  font-size: 36px;
+}
+
+#score {
+  width: 100px;
+  height: 65px;
+  margin-top: 15px;
+  margin-left:45px;
+  padding-top: 5px;
+  padding-left: 20px;
+  float: left;
+    text-align: center;
+   background-color: #fff;
+     border: 3px solid #CCFF33;
+}
+
+#next_button {
+  width: 100px;
+  height: 45px;
+  /*background-color: #ff0000;*/
+  margin-top: 50px;
+  margin-left:20px;
+  text-align: center;
+  float: left;
+  display: none;
+  z-index: 200;
+  position: relative;
+}
+
+#answer, #answer_countries {
+  padding-left: 30px;
+}
+
+.answer {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 36px;
+  text-align: left;
+  color: #0972f4;
+}
+
+li {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 30px;
+  text-align: left;
+  color: #99CC00;
+  list-style-type:none;
+  cursor:pointer;
+  line-height: 50px;
+}
+
+#question, #question_countries {
+  padding-left: 30px;
+}
+
+.question{
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+font-size:30px;
+text-align: left;
+color: #660099;
+line-height: 40px;
+}
+
+#try {
+position:relative;
+  /*width: 290px;
+  height: 50px;*/
+  float: left;
+  margin-top:50px;
+  padding-left: 30px;
+  display: none;
+}
+
+.try a{
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+font-size:45px;
+text-align: left;
+color: #9900CC;
+text-decoration: none;
+
+}
+
+
+
+
+.number{
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+font-size:20px;
+text-align: left;
+color: #660099;
+}
+
+.margin_30{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+    .btn.btn-outline {
+      border: #333 2px solid;
+      background: none;
+      color: #333;
+    }
+    .btn.btn-outline:hover {
+      border: #333 2px solid;
+      background: #333;
+      color: #fff;
+    }
+
+div[class*="emphasize-"] {
+    background: #E8E8E8;
+}
+ 
+.emphasize-dark {
+    box-shadow: 0 0 12px 9px rgba(0,0,0,.35)
+}
+ 
+.emphasize-light {
+    box-shadow: 0 0 0 10px rgba(255,255,255,.25)
+}
+ 
+.emphasize-inset {
+    box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5)
+}
+ 
+.emphasize-border {
+    box-shadow: inset 0 0 0 7px rgba(255,255,255,.5)
+}
+
+
+.background_lgt_grey{
+  background: #E8E8E8;
+}
+
+.modal_margin{
+  margin-left: 50px;
+}
+
+.margin_top_20{
+  margin-top: -20px;
+}
+
+.margin_top_btm_15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.margin_bottom_20{
+  margin-bottom: 20px;
+}
+
+.margin_left_30{
+  margin-left: 30px;
+}
+
+.margin_left_35{
+  margin-left: 35px;
+}
+
+.border_curved {
+    border-radius: 25px;
+  }
+
+/*a:hover { background-color: transparent; text-decoration: none; }*/

@@ -1,0 +1,191 @@
+#bigrow_space  {
+  width: 1100px;
+  height: 230px;
+  background-color: #000;
+  float: left;
+  border-radius: 25px;
+   border: 4px solid #6600FF;
+     background-image: url(../images/space_distance.png);
+}
+
+#bigrow_countries  {
+  width: 1100px;
+  height: 230px;
+  background-color: #CCFFCC;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #66CC33;
+     background-image: url(../images/countries_visited.png);
+}
+
+#bigrow_species  {
+  width: 1100px;
+  height: 230px;
+  background-color: #CCFFCC;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #CC00FF;
+     background-image: url(../images/species_age.png);
+}
+
+#bigrow_cities  {
+  width: 1100px;
+  height: 230px;
+  background-color: #FFFF66;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FF9966;
+     background-image: url(../images/cities_pop.png);
+}
+
+#dragzone_geo  {
+  height: 400px;
+  background-color: #FFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FFCC00;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#dragzone_space  {
+  height: 400px;
+  background-color: #6600FF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FFCC00;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#dragzone_species  {
+  height: 400px;
+  background-color: #FFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #9900FF;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#dragzone_cities {
+  height: 400px;
+  background-color: #FFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #99CCFF;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#textzone_space  {
+  /*width: 668px;*/
+  height: 400px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FF6699;
+  margin-top: 30px;
+  background-image: url(../images/textzone_space.png);
+  margin-bottom: 50px;
+}
+
+#textzone_countries {
+  /*width: 668px;*/
+  height: 400px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FF6699;
+  margin-top: 30px;
+  background-image: url(../images/textzone_geo.png);
+  margin-bottom: 50px;
+}
+
+#textzone_species  {
+  /*width: 668px;*/
+  height: 400px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FF6699;
+  margin-top: 30px;
+  background-image: url(../images/textzone_species.png);
+  margin-bottom: 50px;
+}
+
+#textzone_cities  {
+  /*width: 668px;*/
+  height: 400px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 25px;
+  border: 4px solid #FF6699;
+  margin-top: 30px;
+  background-image: url(../images/textzone_cities.png);
+  margin-bottom: 50px;
+}
+
+#welldone_species, #welldone_cities, #welldone_countries, #welldone_biology  {
+  /*width: 668px;*/
+  height: 320px;
+  background-color: #FFF;
+  float: left;
+  border-radius: 25px;
+  /*border: 4px solid #FF6699;*/
+  margin-top: 40px;
+   margin-left: 30px;
+  /*background-image: url(textzone_species.png);*/
+
+  /*float: left;*/
+   z-index: 11;
+  position: absolute;
+display: none;
+
+
+}
+
+
+#drag_solar1, #drag_solar2, #drag_solar3, #drag_solar4, #drag_solar5, #drag_solar6, #drag_solar7, #drag_solar8,
+#drag_country1, #drag_country2, #drag_country3, #drag_country4, #drag_country5, #drag_country6, #drag_country7, #drag_country8,
+#drag_species1, #drag_species2, #drag_species3, #drag_species4, #drag_species5, #drag_species6, #drag_species7, #drag_species8,
+#drag_cities1, #drag_cities2, #drag_cities3, #drag_cities4, #drag_cities5, #drag_cities6, #drag_cities7, #drag_cities8 {
+  width: 133px;
+  height: 200px;
+  float: left;
+}
+
+#drag_empty1, #drag_empty2, #drag_empty3, #drag_empty4, #drag_empty5, #drag_empty6, #drag_empty7, #drag_empty8{
+  width: 50px;
+  height: 200px;
+  float: left;
+}
+
+.bigrow_no_border{
+  width: 133px;
+  height: 200px; 
+  text-align: center;
+  float: left;
+   background-color: none;
+
+}
+
+#earth_text, #venus_text, #mercury_text, #mars_text, #saturn_text, #jupiter_text, #neptune_text, #uranus_text, 
+#france_text, #USA_text, #china_text, #spain_text, #italy_text, #uk_text, #turkey_text, #germany_text,
+#cyanobacteria_text, #sponge_text, #jellyfish_text, #horseshoe_crab_text, #coelacanth_text, #gingko_biloba_text, #nautilus_text, #horseshoe_shrimp_text,
+#tokyo_text, #canton_text, #shanghai_text, #jakarta_text, #seoul_text, #delhi_text, #mumbai_text, #new_york_text {
+  /*width: 133px;
+  height: 200px;
+  background-color: #FF6699;*/
+  float: left;
+  display:none;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  background-color: #fff;
+
+}
+
+  .section {
+        display: none;
+    }

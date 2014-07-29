@@ -1,0 +1,191 @@
+#number_rows_cities {
+	width: 440px;
+	height: 940px;
+	float: left;
+	position:relative;
+	background-image: url(../images/number_rows_cities.png);
+}
+
+#number_rows_space {
+  width: 440px;
+  height: 940px;
+  float: left;
+  position:relative;
+  background-image: url(../images/number_rows_space.png);
+}
+
+#number_rows_countries {
+  width: 440px;
+  height: 940px;
+  float: left;
+  position:relative;
+  background-image: url(../images/number_rows_countries.png);
+}
+
+#number_rows_biology {
+  width: 440px;
+  height: 940px;
+  float: left;
+  position:relative;
+  background-image: url(../images/number_rows_biology.png);
+}
+
+#number_row1, #number_row2, #number_row3, #number_row4, #number_row5, #number_row6, 
+#number_row7, #number_row8, #number_row9, #number_row10, #number_row11, #number_row12, #number_row13 {
+	width: 500px;
+	height: 100px;
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+	z-index: 100;
+}
+
+.number_row {
+	width: 70px;
+	height: 100px;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  	font-size: 50px;
+  	text-align: right;
+}
+
+.bottom {
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.row_no_border_150{
+  width: 0px;
+  height: 100px; 
+  padding-right: 100px;
+  float: left;
+}
+
+.row_no_border_280{
+  width: 280px;
+  height: 100px; 
+  float: left;
+}
+
+#cities_info {
+	width: 610px;
+	height: 620px;
+	background-color: #E0E0E0;
+	border: 4px dashed #B8B8B8;
+	border-radius: 25px;
+	float: left;
+	margin-left: 30px;
+	/*margin-top: 70px;
+	position: fixed;*/
+}
+
+#planets_info {
+  width: 610px;
+  height: 620px;
+  background-color: #E0E0E0;
+  border: 4px dashed #B8B8B8;
+  border-radius: 25px;
+  float: left;
+  margin-left: 30px;
+  /*margin-top: 70px;
+  position: fixed;*/
+}
+
+#countries_info {
+  width: 610px;
+  height: 620px;
+  background-color: #E0E0E0;
+  border: 4px dashed #B8B8B8;
+  border-radius: 25px;
+  float: left;
+  margin-left: 30px;
+  /*margin-top: 70px;
+  position: fixed;*/
+}
+
+#biology_info {
+  width: 610px;
+  height: 620px;
+  background-color: #E0E0E0;
+  border: 4px dashed #B8B8B8;
+  border-radius: 25px;
+  float: left;
+  margin-left: 30px;
+  /*margin-top: 70px;
+  position: fixed;*/
+}
+
+#info {
+	width: 600px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+}
+
+#drag_city1, #drag_city2, #drag_city3, #drag_city4, #drag_city5, #drag_city6, #drag_city7, 
+#drag_city8, #drag_city9, #drag_city10, #drag_city11, #drag_city12, #drag_city13,
+#drag_space1, #drag_space2, #drag_space3, #drag_space4, #drag_space5, #drag_space6, #drag_space7, #drag_space8,
+#drag_country1, #drag_country2, #drag_country3, #drag_country4, #drag_country5, #drag_country6, #drag_country7, #drag_country8,
+#drag_biology1, #drag_biology2, #drag_biology3, #drag_biology4, #drag_biology5, #drag_biology6, #drag_biology7, #drag_biology8 {
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+#drag_fact_city1, #drag_fact_city2, #drag_fact_city3, #drag_fact_city4, #drag_fact_city5, #drag_fact_city6, #drag_fact_city7, 
+#drag_fact_city8, #drag_fact_city9, #drag_fact_city10, #drag_fact_city11, #drag_fact_city12, #drag_fact13,
+ #drag_fact_space1, #drag_fact_space2, #drag_fact_space3, #drag_fact_space4, #drag_fact_space5, #drag_fact_space6, #drag_fact_space7, #drag_fact_space8,
+ #drag_fact_country1, #drag_fact_country2, #drag_fact_country3, #drag_fact_country4, #drag_fact_country5, #drag_fact_country6, #drag_fact_country7, #drag_fact_country8,
+ #drag_fact_biology1, #drag_fact_biology2, #drag_fact_biology3, #drag_fact_biology4, #drag_fact_biology5, #drag_fact_biology6, #drag_fact_biology7, #drag_fact_biology8 {
+  width: 280px;
+  height: 100px;
+  float: left;
+}
+
+#row1a, #row2a, #row3a, #row4a, #row5a, #row6a, #row7a, #row8a, #row9a, #row10a, #row11a, #row12a, #row13a{
+  width: 0px;
+  height: 100px;
+  float: left;
+  padding-left: 150px;
+  margin-bottom: 20px;
+  position:relative;
+  left:0px;
+  top:0px;
+  z-index:2;
+}
+
+#row1b, #row2b, #row3b, #row4b, #row5b, #row6b, #row7b, #row8b, #row9b, #row10b, #row11b, #row12b, #row13b{
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  position:relative;
+  left:0px;
+  top:0px;
+  z-index:2;
+}
+
+.margin-left_20{
+	margin-left: 20px;
+}
+
+/*.row1a{
+	width: 150px;
+  height: 100px;
+}*/
+
+.number_list{
+  width: 70px;
+  height: 1000px;
+  float: left;
+}
+
+.margin_number{
+	margin-top: 40px;
+	margin-bottom: 78px;
+	margin-left: 0px;
+}
+
+
+
