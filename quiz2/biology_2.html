@@ -9,6 +9,8 @@
     <link type="text/css" rel="stylesheet" href="../css/fonts.css" />
     <link type="text/css" rel="stylesheet" href="../css/quiz.css" />
     <link type="text/css" rel="stylesheet" href="../css/drag_drop.css" />
+    <link type="text/css" rel="stylesheet" href="../css/note_species.css" />
+    <link type="text/css" rel="stylesheet" href="../css/note_bw.css" />
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="../css/adaptive-modal.css" />
     <!--<link type="text/css" rel="stylesheet" href="../css/jquery-ui.min.css" />-->
@@ -19,7 +21,7 @@
 </head>
 
 
-<body>
+<body class="body_class_white">
 <div class="container grey_background"><!-- yes -->
    <div class="row-fluid margin_left_30">
 
@@ -33,23 +35,23 @@
               
             </div> <!-- row-fluid -->
 
-        <div id="quiz_container" class="container-fluid border_curved margin_bottom_20 purple_background"><!-- yes -->
+        <div id="quiz_container" class="container-fluid quiz_container"><!-- yes -->
 
        <div class="row-fluid">
 
-                <div class="col-md-3"></div>
+                <div class="col-md-3"><button type="submit" class="btn btn-primary margin_top_button button_css">Change Theme</button></div>
                     <ul class="nav nav-tabs" role="tablist">
                           <li class="font_nav_bar_subj margin_left_30"><a href="space_2.html">&nbsp;Space&nbsp;</a></li>
                           <li class="font_nav_bar_subj"><a href="countries_2.html">&nbsp;Countries&nbsp;</a></li>
                           <li class="font_nav_bar_subj"><a href="cities_2.html">&nbsp;Cities&nbsp;</a></li>
                           <li class="active font_nav_bar_subj"><a href="biology_2.html">&nbsp;Biology&nbsp;</a></li>
                     </ul>
-
+          
 
  <div class="col-md-12" style="margin-top:10px;">
-          <div class="margin_top_btm_15 Arial_Rd_Grey_30">Arrange these living species by age in years </div>
-
-           <div id="bigrow_species">
+          <div class="margin_top_btm_15 Arial_Rd_Grey_30">Arrange these living things by age in years </div>
+          
+           <div id="bigrow_species" class="bigrow_species">
 
             <div id="bigrow1" class="bigrow1_bio bigrow_no_border"></div>
             <div id="bigrow2" class="bigrow2_bio bigrow_no_border"></div>
@@ -63,7 +65,7 @@
            </div>
 
            <div clas="row">
-           <div id="textzone_species" class="col-md-4"><p class="species_facts">Species Facts</p>
+           <div id="textzone_species" class="col-md-4 textzone_species note" style="margin-right:15px;"><p class="species_facts">Species Facts</p>
             
             <div id="cyanobacteria_text" class="section">
               <p class="font_species_name">Cyanobacteria</p>
@@ -107,10 +109,11 @@
 
            </div>
 
-               <div id="dragzone_species" class="col-md-8">
+               <div id="dragzone_species" class="col-md-8 dragzone_species" style="margin-right:-15px;">
 
-                 <div id="welldone_species" class="span4">
+                 <div id="welldone_species" class="col-md-6">
                   <span class="species_facts">Well Done!</span><br /><br />
+                  <span class="font_species_name">The oldest living things in years:</span><br />
                   <span class="font_species_name"> Cyanobacteria</span> <span class="font_species_para">3.5 Billion years </span><br />
                   <span class="font_species_name"> Sponge</span> <span class="font_species_para">580 Million years </span><br />
                   <span class="font_species_name"> Jellyfish</span> <span class="font_species_para">505 Million years </span><br />
@@ -119,9 +122,6 @@
                   <span class="font_species_name"> Gingko Biloba</span> <span class="font_species_para">270 Million years </span><br />
                   <span class="font_species_name"> Nautilus</span> <span class="font_species_para">235 Million years </span><br />
                   <span class="font_species_name"> Horseshoe Shrimp</span> <span class="font_species_para">200 Million years </span>
-
-
-
                 </div>
 
                   <div id="drag_empty1"></div> 
@@ -179,6 +179,8 @@
 <script type="text/javascript" src="../js/jquery-ui.min.js"></script>-->
 <script type="text/javascript" src="../js/quiz2_dragdrop_biology2.js"></script>
 <script type="text/javascript" src="../js/hide_div.js"></script>
+<script type="text/javascript" src="../js/toggle_css.js"></script>
+<script type="text/javascript" src="../js/toggle_sound.js"></script>
 
 
 

@@ -10,7 +10,8 @@ $(document).on("ready", function(){
 			ui.draggable.draggable("disable", 1)
 		
 			$(this).addClass('ui-state-highlight');
-			$("body").append('<embed src="shinyding.mp3" autostart="true" width="1" height="1" id="LegacySound" enablejavascript="true">');
+			//	$("body").addClass('.sound_ping');
+			$("body").append('<embed src="../audios/shinyding.mp3" autostart="true" width="1" height="1" id="LegacySound" enablejavascript="true">');
 			
 			score++;
 			display_score();
@@ -36,7 +37,7 @@ $(document).on("ready", function(){
 		$(".text_blk_22a").text(0 + score * 100);		
 	});
 	
-	/*displays bonus round when score reaches 2000*/
+
 	var welldone_display = (function() {
 		
 		if (score >= 8){

@@ -11,7 +11,8 @@
 }
 
 .Arial_Rd_DkGreen_40 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
   font-size: 40px;
   color: #006600;
 }
@@ -23,13 +24,17 @@
 }
 
 .Arial_Rd_Grey_30 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
   font-size: 30px;
-  color: #606060;
+  color: #505050;
 }
 
 .Arial_Rd_Grey_25 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  /*font-family: Tahoma, Verdana, Segoe, sans-serif;*/
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: Verdana, Geneva, sans-serif;*/
+  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
   font-size: 25px;
   color: #606060;
 }
@@ -62,13 +67,15 @@ font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewrite
 }
 
 .font_nav_bar_quiz{
- font-family: "Trebuchet MS", Arial, Verdana;
+ /*font-family: "Trebuchet MS", Arial, Verdana;*/
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 10pt;
 color: #B0B0B0;
 }
 
 .font_nav_bar_subj{
- font-family: "Trebuchet MS", Arial, Verdana;
+ /*font-family: "Trebuchet MS", Arial, Verdana;*/
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 16pt;
 color: #999999;
 }
@@ -87,15 +94,25 @@ font-weight: bold;
 }
 
 .font_planet_name, .font_country_name, .font_cities_name, .font_species_name {
- font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
 font-size: 14pt;
 color: #0066CC;
 }
 
 .solar_facts, .country_facts, .species_facts, .cities_facts{
- font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
 font-size: 18pt;
 color: #CC0099;
+margin-top: 10px;
+margin-left: 0px;
+}
+
+.facts_font_bw {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 18pt;
+color: #686868;
 margin-top: 10px;
 margin-left: 0px;
 }

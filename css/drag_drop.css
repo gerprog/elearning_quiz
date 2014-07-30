@@ -1,114 +1,199 @@
+
+.quiz_container{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: #CCCCFF;
+}
+
+.quiz_container_blue{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: #99CCFF;
+}
+
+.quiz_container_green{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: #99FFCC;
+}
+
+.quiz_container_yellow{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: #FFFFCC;
+}
+
+.bigrow_species  {
+
+  margin-bottom: 20px;
+  background-color: #F0FFF0;
+
+  border: 2px solid #787878;
+}
+
+.bigrow_bw  {
+  margin-bottom: 20px;
+  background: #C0C0C0;
+}
+
 #bigrow_space  {
   width: 1100px;
   height: 230px;
   background-color: #000;
   float: left;
-  border-radius: 25px;
-   border: 4px solid #6600FF;
+  /*border-radius: 15px;*/
+   border: 2px solid #E0E0E0;
      background-image: url(../images/space_distance.png);
+}
+
+.bigrow_space  {
+  margin-bottom: 20px;
+  background-color: #99FFFF;
+  border: 2px dashed #787878;
 }
 
 #bigrow_countries  {
   width: 1100px;
   height: 230px;
-  background-color: #CCFFCC;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #66CC33;
      background-image: url(../images/countries_visited.png);
+}
+
+.bigrow_countries  {
+   border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #CCFFCC;
+  border-radius: 15px;
+  border: 2px dashed #66CC33;
+
 }
 
 #bigrow_species  {
   width: 1100px;
   height: 230px;
-  background-color: #CCFFCC;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #CC00FF;
-     background-image: url(../images/species_age.png);
+  background-image: url(../images/species_age.png);
 }
 
 #bigrow_cities  {
   width: 1100px;
   height: 230px;
-  background-color: #FFFF66;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FF9966;
      background-image: url(../images/cities_pop.png);
 }
 
-#dragzone_geo  {
-  height: 400px;
-  background-color: #FFF;
+.bigrow_cities  {
+
+  margin-bottom: 20px;
+  background-color: #FFFFCC;
+
+  border: 2px solid #B8B8B8;
+}
+
+#dragzone_countries  {
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FFCC00;
   margin-top: 30px;
   margin-bottom: 50px;
+
 }
 
 #dragzone_space  {
-  height: 400px;
-  background-color: #6600FF;
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FFCC00;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
-#dragzone_species  {
-  height: 400px;
+.dragzone_space  {
+  background-color: #104E8B;
+  border: 2px solid #FFCC00;
+}
+
+.dragzone_cities {
   background-color: #FFF;
+  border: 2px solid #B8B8B8;
+}
+
+.dragzone_species  {
+  background-color: #FFF;
+  border: 2px solid #9900FF;
+}
+
+.dragzone_countries {
+  background-color: #FFFACD;
+  border: 2px solid #B8B8B8;
+}
+
+.dragzone_bw  {
+  background-color: #FFF;
+  border: 2px solid #888888;
+}
+
+.dragzone_blk  {
+  background-color: #000;
+  border: 2px solid #888888;
+}
+
+#dragzone_species  {
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #9900FF;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
 #dragzone_cities {
-  height: 400px;
-  background-color: #FFF;
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #99CCFF;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
 #textzone_space  {
   /*width: 668px;*/
-  height: 400px;
-  background-color: #FFFFFF;
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FF6699;
   margin-top: 30px;
   background-image: url(../images/textzone_space.png);
   margin-bottom: 50px;
 }
 
+.textzone_space  {
+  /*background-color: #FFFFFF;*/
+  /*border-radius: 25px;*/
+  /*border: 2px solid #FF6699;*/
+  
+}
+
 #textzone_countries {
   /*width: 668px;*/
-  height: 400px;
-  background-color: #FFFFFF;
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FF6699;
   margin-top: 30px;
   background-image: url(../images/textzone_geo.png);
   margin-bottom: 50px;
 }
 
+.textzone_countries {
+  /*background-color: #FFFFFF;
+  border-radius: 25px;
+  border: 4px solid #FF6699;*/
+}
+
+.textzone_species  {
+  /*background-color: #FFFFFF;
+  border-radius: 25px;
+  border: 4px solid #FF6699;*/
+}
+
+.textzone_bw {
+  background-color: #FFFFFF;
+}
+
 #textzone_species  {
   /*width: 668px;*/
-  height: 400px;
-  background-color: #FFFFFF;
-  float: left;
-  border-radius: 25px;
-  border: 4px solid #FF6699;
+  height: 410px;
+  float: left; 
   margin-top: 30px;
   background-image: url(../images/textzone_species.png);
   margin-bottom: 50px;
@@ -116,33 +201,29 @@
 
 #textzone_cities  {
   /*width: 668px;*/
-  height: 400px;
-  background-color: #FFFFFF;
+  height: 410px;
   float: left;
-  border-radius: 25px;
-  border: 4px solid #FF6699;
   margin-top: 30px;
   background-image: url(../images/textzone_cities.png);
   margin-bottom: 50px;
 }
 
-#welldone_species, #welldone_cities, #welldone_countries, #welldone_biology  {
-  /*width: 668px;*/
+.textzone_cities  {
+ background-color: #FFFFFF;
+  /*border-radius: 25px;
+  border: 4px solid #FF6699;*/
+}
+
+#welldone_species, #welldone_cities, #welldone_countries, #welldone_biology, #welldone_space  {
   height: 320px;
   background-color: #FFF;
   float: left;
   border-radius: 25px;
-  /*border: 4px solid #FF6699;*/
   margin-top: 40px;
    margin-left: 30px;
-  /*background-image: url(textzone_species.png);*/
-
-  /*float: left;*/
    z-index: 11;
   position: absolute;
 display: none;
-
-
 }
 
 
