@@ -100,6 +100,24 @@ font-size: 14pt;
 color: #0066CC;
 }
 
+.font_planet_nameQ3, .font_country_nameQ3, .font_cities_nameQ3, .font_species_nameQ3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 20pt;
+color: #0066CC;
+}
+
+.more_infoQ3{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 14pt;
+color: #104E8B;
+}
+
+.font_more_info_link{
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 12pt;
+color: #0066CC;
+}
+
 .solar_facts, .country_facts, .species_facts, .cities_facts{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/

@@ -30,6 +30,22 @@
   background-image: url(../images/number_rows_biology.png);
 }
 
+#forum {
+  display: none;
+}
+
+#Q3_more_info {
+    height: 720px;
+  background-color: none;
+  float: left;
+  margin-top: 15px;
+   margin-left: 30px;
+   z-index: 11;
+  position: absolute;
+display: none;
+}
+
+
 #number_row1, #number_row2, #number_row3, #number_row4, #number_row5, #number_row6, 
 #number_row7, #number_row8, #number_row9, #number_row10, #number_row11, #number_row12, #number_row13 {
 	width: 500px;
@@ -86,8 +102,8 @@
   
   float: left;
   margin-left: 30px;
-  /*margin-top: 70px;
-  position: fixed;*/
+ 
+  /*position: fixed;*/
 }
 
 #countries_info {
