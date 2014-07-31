@@ -1,3 +1,4 @@
 $('#forum_btn').click(function(){
-   $('#forum').toggle() 
+   $('#forum').toggle(); 
+   e.preventDefault();
 });
