@@ -14,7 +14,7 @@ $(document).on("ready", function(){
 			
 			score++;
 			display_score();
-			bonus_display();
+			welldone_display();
 		}		
 	};
 	
@@ -44,7 +44,15 @@ $(document).on("ready", function(){
 		$(".text_blk_22a").text(0 + score * 100);		
 	});
 	
-	
+	var welldone_display = (function() {
+		
+		if (score >= 16){
+			$("#Q3_more_info").show("scale",{  percent: 100}, 1000 );
+			/*$("#welldone_bio").effect("shake",{  times: 0}, 0000);
+			$(".text_blk_22a").text(2000);*/
+		}
+		
+	});
 		
 	display_score();		
 });

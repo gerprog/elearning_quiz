@@ -1,5 +1,5 @@
 .grey_background {
-	background: #E8E8E8;
+	background: #000;
 }
 
 .Q1_background {
@@ -19,7 +19,7 @@
 }
 
 .purple_background {
-  background: #CCCCFF;
+  background: #CDC673;
 }
 
 .orange_background {
@@ -250,6 +250,14 @@ div[class*="emphasize-"] {
 
 .margin_left_30{
   margin-left: 30px;
+}
+
+.margin_right_30{
+  margin-right: 30px;
+}
+
+.margin_right_430{
+  margin-right: 430px;
 }
 
 .margin_left_35{

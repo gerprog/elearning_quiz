@@ -54,6 +54,5 @@ $(document).on("ready", function(){
 		
 	});
 	
-		
 	display_score();		
 });

@@ -2,7 +2,7 @@
 .quiz_container{
   border-radius: 25px;
   margin-bottom: 20px;
-  background: #CCCCFF;
+  background: #CDC673;
 }
 
 .quiz_container_blue{
@@ -121,7 +121,7 @@
 }
 
 .dragzone_countries {
-  background-color: #FFFACD;
+  background-color: #FFF;
   border: 2px solid #B8B8B8;
 }
 
