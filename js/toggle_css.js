@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('.button_css').click(function(e){
-	 	$('.quiz_container, .quiz_container_blue, .quiz_container_green, .quiz_container_yellow, .bigrow_species, .bigrow_space, .bigrow_cities').toggleClass('bigrow_bw');
+	 	$('.quiz_container, .quiz_container_blue, .quiz_container_green, .quiz_container_yellow, .bigrow_species, .bigrow_space, .bigrow_cities, .Q2_background, .Q3_background, .purple_background, .green_background').toggleClass('bigrow_bw');
 	 	$('.bigrow_countries').toggleClass('bigrow_bw');
 	 	$('.textzone_species, .textzone_space, .textzone_countries, .textzone_cities').toggleClass('textzone_bw');
 	 	$('.dragzone_species, .dragzone_countries, .dragzone_cities').toggleClass('dragzone_bw');

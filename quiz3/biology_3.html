@@ -24,7 +24,7 @@
 </head>
 
 
-<body>
+<body class="body_class_white">
 <div class="container grey_background" ng-app><!-- yes -->
      <div class="row-fluid margin_left_30">
 
@@ -42,14 +42,19 @@
 
        <div class="row-fluid">
 
-                <div class="col-md-3"><button type="submit" id="forum_btn" class="btn btn-primary margin_top_button button_css">Class Forum</button>
-                  <button type="submit" id="video_btn" class="btn btn-primary margin_top_button button_css">Video</button></div>
+                <div class="col-md-3"><button type="submit" id="forum_btn" class="btn btn-primary margin_top_button">Class Forum</button>
+                <button type="submit" id="video_btn" class="btn btn-primary margin_top_button">Video</button></div><!-- col-md-3 -->
+                   <div class="col-md-6"> 
                     <ul class="nav nav-tabs" role="tablist">
-                          <li class="font_nav_bar_subj margin_left_30"><a href="../space_3.php">&nbsp;Space&nbsp;</a></li>
+                           <li class="font_nav_bar_subj margin_left_30"><a href="../space_3.php">&nbsp;Space&nbsp;</a></li>
                           <li class="font_nav_bar_subj"><a href="../countries_3.php">&nbsp;Countries&nbsp;</a></li>
                           <li class="font_nav_bar_subj"><a href="../cities_3.php">&nbsp;Cities&nbsp;</a></li>
                           <li class="active font_nav_bar_subj"><a href="../biology_3.php">&nbsp;Biology&nbsp;</a></li>
                     </ul>
+                  </div><!-- col-md-6 -->
+                    <div class="col-md-3">
+                      <button type="submit" class="btn btn-primary margin_top_button button_css pull-right">Change Theme</button></div>
+        </div><!-- row-fluid -->
 
 <div id="forum"> 
     <object type="text/html" data="https://www.hipchat.com/gB5NcM9Uy" width="1120px" height="600px" style="overflow:auto;border:1px ridge blue">
@@ -284,6 +289,7 @@
 <script type="text/javascript" src="../js/hide_forum.js"></script>
 <script type="text/javascript" src="../js/hide_video.js"></script>
 <script type="text/javascript" src="../js/angular_section.js"></script>
+<script type="text/javascript" src="../js/toggle_css.js"></script>
 
 
 
