@@ -273,7 +273,7 @@ display: none;
 
 
     #notepad {
-      display:none;
+      /*display:none;*/
       bottom:0;
     position:fixed;
     z-index:150;
