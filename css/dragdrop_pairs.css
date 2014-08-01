@@ -34,6 +34,21 @@
   display: none;
 }
 
+#video {
+  display: none;
+  margin-top: 15px;
+  width: 900px;
+  height: 400px;
+  float: left;
+  /*background-color: #E0E0E0;*/
+
+}
+
+#videos {
+ 
+
+}
+
 #Q3_more_info {
     height: 720px;
   background-color: none;
@@ -200,5 +215,9 @@ display: none;
 	margin-left: 0px;
 }
 
+#usersnav .nav li a{
+  padding: 0px 10px;
+ 
+}
 
 

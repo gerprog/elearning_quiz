@@ -58,52 +58,28 @@
     <object type="text/html" data="https://www.hipchat.com/gB5NcM9Uy" width="1120px" height="600px" style="overflow:auto;border:1px ridge blue">
     </object></div>
 
-      <div id="video" ng-controller="Ctrl"> 
+      <div id="video"> 
         <div class="col-md-12">
 
 
-          <div class="col-md-6 margin_top_button" >
-            <section id="section1" ng-show="is(1)">
-                  <iframe width="420" height="345"
+          <div class="col-md-6">
+            <!--<h3 ng-show="active">You are watching <b>{{active}}</b>!</h3>-->
+                <div ng-show="details1.show">
+                   <div ng-view>
+                      <iframe width="420" height="345"
                         src="http://www.youtube.com/embed/6KY-oB2i9lo">
                       </iframe>
-            </section>
-             <section id="section2" ng-show="is(2)">
-                  <iframe width="420" height="345"
+                   </div><!-- ng-view -->       
+                </div><!-- details1.show -->
+
+                <div ng-show="details2.show">
+                   <div ng-view>
+                      <iframe width="420" height="345"
                         src="http://www.youtube.com/embed/HqFVxWfVtoo">
                       </iframe>
-            </section>
-             <section id="section3" ng-show="is(3)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/P5_GlAOCHyE">
-                      </iframe>
-            </section>
-             <section id="section4" ng-show="is(4)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/f__qNnj65Ts">
-                      </iframe>
-            </section>
-             <section id="section5" ng-show="is(5)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/s56pxa9lpvo">
-                      </iframe>
-            </section>
-             <section id="section6" ng-show="is(6)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/YL__UbPsPDg">
-                      </iframe>
-            </section>
-             <section id="section7" ng-show="is(7)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/1EWTku7Fr0Y">
-                      </iframe>
-            </section>
-             <section id="section8" ng-show="is(8)">
-                  <iframe width="420" height="345"
-                        src="http://www.youtube.com/embed/wW49Cc9cGis">
-                      </iframe>
-            </section>
-            
+                   </div><!-- ng-view -->       
+                </div><!-- details2.show -->
+
           </div><!--col-md-6-->
 
         <div class="col-md-6">
@@ -111,19 +87,19 @@
               <div id="usersnav" class="btn-group">
 
                             <ul class="nav" class="{{active}}" ng-click="$event.preventDefault()">
-                                <li class="font_nav_bar_video" id="show-section1" value="Section 1" ><a ng-click="section(1)" ng-class="{'btn-primary': is(1)}">Mercury</a></li>
-                               <li class="font_nav_bar_video" id="show-section2" value="Section 2" ><a ng-click="section(2)" ng-class="{'btn-primary': is(2)}">Venus</a></li>
-                               <li class="font_nav_bar_video" id="show-section3" value="Section 3" ><a ng-click="section(3)" ng-class="{'btn-primary': is(3)}">Earth</a></li>
-                               <li class="font_nav_bar_video" id="show-section4" value="Section 4" ><a ng-click="section(4)" ng-class="{'btn-primary': is(4)}">Mars</a></li>
-                               <li class="font_nav_bar_video" id="show-section5" value="Section 5" ><a ng-click="section(5)" ng-class="{'btn-primary': is(5)}">Jupiter</a></li>
-                               <li class="font_nav_bar_video" id="show-section6" value="Section 6" ><a ng-click="section(6)" ng-class="{'btn-primary': is(6)}">Saturn</a></li>
-                               <li class="font_nav_bar_video" id="show-section7" value="Section 7" ><a ng-click="section(7)" ng-class="{'btn-primary': is(7)}">Uranus</a></li>
-                               <li class="font_nav_bar_video" id="show-section8" value="Section 8" ><a ng-click="section(8)" ng-class="{'btn-primary': is(8)}">Neptune</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details1.show=!details1.show" class="mercury">Mercury</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details2.show=!details2.show" class="mercury">Venus</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Earth</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Mars</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Jupiter</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Saturn</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Uranus</a></li>
+                                <li class="font_nav_bar_subj"><a ng-click="details.show=!details.show" class="mercury">Neptune</a></li>
                                
                             </ul>
                  </div><!--usersnav-->
 
-              </ul>
+              </ul><!--dropdown-menu no-collapse-->
            </div><!--col-md-6-->
 
         </div><!--col-md-12-->
@@ -290,7 +266,6 @@
 <script type="text/javascript" src="../js/quiz3_dragdrop_space3.js"></script>
 <script type="text/javascript" src="../js/hide_forum.js"></script>
 <script type="text/javascript" src="../js/hide_video.js"></script>
-<script type="text/javascript" src="../js/angular_section.js"></script>
 
 
 

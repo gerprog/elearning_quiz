@@ -80,6 +80,14 @@ font-size: 16pt;
 color: #999999;
 }
 
+.font_nav_bar_video{
+ /*font-family: "Trebuchet MS", Arial, Verdana;*/
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 14pt;
+color: #999999;
+
+}
+
 .font_planet_para, .font_country_para, .font_species_para, .font_cities_para{
  font-family: "Trebuchet MS", Arial, Verdana;
 font-size: 10pt;
