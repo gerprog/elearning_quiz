@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-framework="angular.js">
 <head>
     <meta charset="utf-8">
     
 
     <title>e-learning episodes - Quiz 3 - Cities</title>
+    <script type="text/javascript" src="../js/angular.js"></script>
     
     <link type="text/css" rel="stylesheet" href="../css/fonts.css" />
     <link type="text/css" rel="stylesheet" href="../css/quiz.css" />
     <link type="text/css" rel="stylesheet" href="../css/drag_drop.css" />
+
     <link type="text/css" rel="stylesheet" href="../css/dragdrop_pairs.css" />
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="../css/adaptive-modal.css" />
@@ -23,7 +25,7 @@
 
 
 <body>
-<div class="container grey_background"><!-- yes -->
+<div class="container grey_background" ng-app><!-- yes -->
    <div class="row-fluid margin_left_30">
 
             <div class="col-md-12"><img src="../images/title.png" alt="title e-learning episodes"> </div>
@@ -40,7 +42,8 @@
 
        <div class="row-fluid">
 
-              <div class="col-md-3"><button type="submit" id="forum_btn" class="btn btn-primary margin_top_button button_css">Class Forum</button></div>
+              <div class="col-md-3"><button type="submit" id="forum_btn" class="btn btn-primary margin_top_button button_css">Class Forum</button>
+                <button type="submit" id="video_btn" class="btn btn-primary margin_top_button button_css">Video</button></div>
                     <ul class="nav nav-tabs" role="tablist">
                            <li class="font_nav_bar_subj margin_left_30"><a href="../space_3.php">&nbsp;Space&nbsp;</a></li>
                           <li class="font_nav_bar_subj"><a href="../countries_3.php">&nbsp;Countries&nbsp;</a></li>
@@ -51,6 +54,78 @@
 <div id="forum"> 
     <object type="text/html" data="https://www.hipchat.com/gB5NcM9Uy" width="1120px" height="600px" style="overflow:auto;border:1px ridge blue">
     </object></div>
+
+     <div id="video" ng-controller="Ctrl"> 
+        <div class="col-md-12">
+
+
+          <div class="col-md-6 margin_top_button" >
+            <section id="section1" ng-show="is(1)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/WBelUobpzaA">
+                      </iframe>
+            </section>
+             <section id="section2" ng-show="is(2)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/aeo4OupQrJY">
+                      </iframe>
+            </section>
+             <section id="section3" ng-show="is(3)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/auKglj7y3bg">
+                      </iframe>
+            </section>
+             <section id="section4" ng-show="is(4)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/xKRlchrOWNc">
+                      </iframe>
+            </section>
+             <section id="section5" ng-show="is(5)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/bivHXPu0BoE">
+                      </iframe>
+            </section>
+             <section id="section6" ng-show="is(6)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/hiSFxKMO_2Q">
+                      </iframe>
+            </section>
+             <section id="section7" ng-show="is(7)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/0mh_0z4d3yU">
+                      </iframe>
+            </section>
+             <section id="section8" ng-show="is(8)">
+                  <iframe width="420" height="345"
+                        src="http://www.youtube.com/embed/Hfz3ql_AxAM">
+                      </iframe>
+            </section>
+            
+          </div><!--col-md-6-->
+
+        <div class="col-md-6">
+            <ul>
+              <div id="usersnav" class="btn-group">
+
+                            <ul class="nav" class="{{active}}" ng-click="$event.preventDefault()">
+                                <li class="font_nav_bar_video" id="show-section1" value="Section 1" ><a ng-click="section(1)" ng-class="{'btn-primary': is(1)}">Tokyo</a></li>
+                               <li class="font_nav_bar_video" id="show-section2" value="Section 2" ><a ng-click="section(2)" ng-class="{'btn-primary': is(2)}">Canton</a></li>
+                               <li class="font_nav_bar_video" id="show-section3" value="Section 3" ><a ng-click="section(3)" ng-class="{'btn-primary': is(3)}">Shanghai</a></li>
+                               <li class="font_nav_bar_video" id="show-section4" value="Section 4" ><a ng-click="section(4)" ng-class="{'btn-primary': is(4)}">Jakarta</a></li>
+                               <li class="font_nav_bar_video" id="show-section5" value="Section 5" ><a ng-click="section(5)" ng-class="{'btn-primary': is(5)}">Seoul</a></li>
+                               <li class="font_nav_bar_video" id="show-section6" value="Section 6" ><a ng-click="section(6)" ng-class="{'btn-primary': is(6)}">Delhi</a></li>
+                               <li class="font_nav_bar_video" id="show-section7" value="Section 7" ><a ng-click="section(7)" ng-class="{'btn-primary': is(7)}">Mumbai</a></li>
+                               <li class="font_nav_bar_video" id="show-section8" value="Section 8" ><a ng-click="section(8)" ng-class="{'btn-primary': is(8)}">New York</a></li>
+                               
+                            </ul>
+                 </div><!--usersnav-->
+
+              </ul>
+           </div><!--col-md-6-->
+
+        </div><!--col-md-12-->
+      </div><!--video-->
+
 
           <div class="col-md-12" style="margin-top:50px;">
 
@@ -197,6 +272,8 @@
 <script type="text/javascript" src="../js/jquery-ui.min.js"></script>-->
 <script type="text/javascript" src="../js/quiz3_dragdrop_cities3.js"></script>
 <script type="text/javascript" src="../js/hide_forum.js"></script>
+<script type="text/javascript" src="../js/hide_video.js"></script>
+<script type="text/javascript" src="../js/angular_section.js"></script>
 
 
 
