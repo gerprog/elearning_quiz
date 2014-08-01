@@ -270,3 +270,12 @@ display: none;
   .section {
         display: none;
     }
+
+
+    #notepad {
+      display:none;
+      bottom:0;
+    position:fixed;
+    z-index:150;
+    right:0;
+    }
