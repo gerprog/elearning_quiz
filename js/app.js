@@ -44,7 +44,7 @@ app.directive('notepad', function(notesFactory) {
       });
 
     },
-    templateUrl: 'templateurl.html'
+    templateUrl: '../quiz2/templateurl.html'
   };
 });
 
