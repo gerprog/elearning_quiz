@@ -278,4 +278,6 @@ display: none;
     position:fixed;
     z-index:150;
     right:0;
+    width: 500px;
+    height: 450px;
     }
