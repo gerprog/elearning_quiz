@@ -270,6 +270,10 @@ div[class*="emphasize-"] {
   margin-bottom: 20px;
 }
 
+.margin_bottom_audio{
+  margin-bottom: 16px;
+}
+
 .margin_left_30{
   margin-left: 30px;
 }

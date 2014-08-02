@@ -43,7 +43,8 @@
        <div class="row-fluid">
 
                 <div class="col-md-3"><button type="submit" id="forum_btn" class="btn btn-primary margin_top_button">Class Forum</button>
-                <button type="submit" id="video_btn" class="btn btn-primary margin_top_button">Video</button></div><!-- col-md-3 -->
+                <button type="submit" id="video_btn" class="btn btn-primary margin_top_button">Video &amp; Audio</button></div>
+                <!--<button type="submit" id="audio_btn" class="btn btn-primary margin_top_button">Audio</button></div>-->   <!-- col-md-3 -->
                    <div class="col-md-6"> 
                     <ul class="nav nav-tabs" role="tablist">
                            <li class="font_nav_bar_subj margin_left_30"><a href="../space_3.php">&nbsp;Space&nbsp;</a></li>
@@ -60,11 +61,12 @@
     <object type="text/html" data="https://www.hipchat.com/gB5NcM9Uy" width="1120px" height="600px" style="overflow:auto;border:1px ridge blue">
     </object></div>
 
- <div id="video" ng-controller="Ctrl"> 
-        <div class="col-md-12">
+ <div id="video" ng-controller="Ctrl"> <!--yes-->
+  <div class="row">
+        <div class="col-md-12"><!--yes-->
 
 
-          <div class="col-md-6 margin_top_button" >
+          <div class="col-md-5 margin_top_button" ><!--yes-->
             <section id="section1" ng-show="is(1)">
                   <iframe width="420" height="345"
                         src="http://www.youtube.com/embed/uU00tg98Jjw">
@@ -108,7 +110,7 @@
             
           </div><!--col-md-6-->
 
-        <div class="col-md-6">
+        <div class="col-md-3"><!--yes-->
             <ul>
               <div id="usersnav" class="btn-group">
 
@@ -126,10 +128,73 @@
                  </div><!--usersnav-->
 
               </ul>
-           </div><!--col-md-6-->
+           </div><!--col-md-4-->
+
+      
+
+
+ 
+        <div class="col-md-4"><!--yes-->
+          <div id="audio" ng-controller="Ctrl"> <!--yes-->
+
+             <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>  
+              </div><!-- details1.show -->
+               <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+                <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+               <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+                <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+                <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+                <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+                <div class="margin_bottom_audio">
+                     <audio controls>
+                        <source src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56" type="audio/mpeg">
+                        <embed height="50" width="100" src="http://www.scientificamerican.com/podcast/podcast.mp3?fileId=F6CCD950-75C1-4C26-A06B48B4DDCEDA56">
+                      </audio>
+              </div><!-- details1.show -->
+             
+            </div><!--audio-->
+          </div><!--col-md-2-->
+
 
         </div><!--col-md-12-->
+         </div><!--row-->
       </div><!--video-->
+
+
 
 
           <div class="col-md-12" style="margin-top:50px;">
@@ -288,6 +353,7 @@
 <script type="text/javascript" src="../js/quiz3_dragdrop_biology3.js"></script>
 <script type="text/javascript" src="../js/hide_forum.js"></script>
 <script type="text/javascript" src="../js/hide_video.js"></script>
+<script type="text/javascript" src="../js/hide_audio.js"></script>
 <script type="text/javascript" src="../js/angular_section.js"></script>
 <script type="text/javascript" src="../js/toggle_css.js"></script>
 

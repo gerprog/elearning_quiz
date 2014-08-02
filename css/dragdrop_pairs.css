@@ -37,11 +37,19 @@
 #video {
   display: none;
   margin-top: 15px;
+  /*width: 900px;*/
+  height: 400px;
+  float: left;
+  /*background-color: #E0E0E0;*/
+}
+
+#audio {
+  display: none;
+  margin-top: 15px;
   width: 900px;
   height: 400px;
   float: left;
   /*background-color: #E0E0E0;*/
-
 }
 
 #videos {
