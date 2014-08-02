@@ -4,6 +4,12 @@
   color: #FF00CC;
 }
 
+.Arial_Rd_blue24 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 24px;
+  color: #104E8B;
+}
+
 .Arial_Rd_Red_40 {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 40px;
@@ -15,6 +21,20 @@
   /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
   font-size: 40px;
   color: #006600;
+}
+
+.Arial_Rd_DkGreen_30 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
+  font-size: 30px;
+  color: #006600;
+}
+
+.Arial_Rd_Blue_30 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
+  font-size: 30px;
+  color: #1874CD;
 }
 
 .Arial_Rd_Grey_50 {

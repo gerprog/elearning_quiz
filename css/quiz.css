@@ -96,6 +96,15 @@
   font-size: 36px;
 }
 
+#score_textQ2 {
+  width: 100px;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 30px;
+  float: left;
+  font-size: 24px;
+}
+
 #score {
   width: 100px;
   height: 65px;
@@ -108,6 +117,19 @@
    background-color: #fff;
      border: 3px solid #CCFF33;
 }
+
+#scoreQ2 {
+  width: 100px;
+  height: 45px;
+  margin-top: 15px;
+  margin-left:35px;
+  padding-left: 20px;
+  float: left;
+    text-align: center;
+   background-color: #fff;
+     border: 2px solid #000099;
+}
+
 
 #next_button {
   width: 100px;

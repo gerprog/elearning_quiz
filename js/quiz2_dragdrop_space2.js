@@ -33,9 +33,7 @@ $(document).on("ready", function(){
 	$(".bigrow7_space").droppable($.extend({ accept: '.uranus'}, droppable_option));
 	$(".bigrow8_space").droppable($.extend({ accept: '.neptune'}, droppable_option));
 		
-	var display_score = (function (){ 
-		$(".text_blk_22a").text(0 + score * 100);		
-	});
+	
 	
 	var welldone_display = (function() {
 		
@@ -45,6 +43,10 @@ $(document).on("ready", function(){
 			$(".text_blk_22a").text(2000);*/
 		}
 		
+	});
+
+	var display_score = (function (){ 
+		$(".Arial_Rd_Blue_30").text(0 + score * 100);		
 	});
 		
 	display_score();		

@@ -34,7 +34,7 @@ $(document).on("ready", function(){
 	$(".bigrow8_bio").droppable($.extend({ accept: '.horseshoe_shrimp'}, droppable_option));
 		
 	var display_score = (function (){ 
-		$(".text_blk_22a").text(0 + score * 100);		
+		$(".Arial_Rd_Blue_30").text(0 + score * 100);		
 	});
 	
 
