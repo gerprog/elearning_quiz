@@ -1,0 +1,30 @@
+.sticker {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    border-radius: 50%;
+    margin-right: 30px;
+    }
+
+    // add image
+    .example-1 .sticker-img {
+        background-image: url(../images/china.png);
+    }
+
+    // add color
+    .example-2 .sticker-img {
+        background-color: #FBF360;
+    }
+
+    // change shadow opacity
+    .example-2 .sticker-shadow {
+        opacity: 0.6;
+    }
+
+
+
+
+.stickerOne .sticker-img {
+    
+    background-image: url(../images/nicework.png);
+}

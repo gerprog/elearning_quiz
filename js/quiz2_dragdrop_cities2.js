@@ -43,6 +43,7 @@ $(document).on("ready", function(){
 			$("#welldone_cities").show("scale",{  percent: 100}, 1000 );
 			/*$("#welldone_bio").effect("shake",{  times: 0}, 0000);
 			$(".text_blk_22a").text(2000);*/
+			Sticker.init(".sticker");
 		}
 		
 	});
