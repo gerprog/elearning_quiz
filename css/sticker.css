@@ -1,6 +1,6 @@
 .sticker {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         display: inline-block;
     border-radius: 50%;
     margin-right: 30px;
@@ -26,5 +26,5 @@
 
 .stickerOne .sticker-img {
     
-    background-image: url(../images/nicework.png);
+    background-image: url(../images/nicework80.png);
 }
