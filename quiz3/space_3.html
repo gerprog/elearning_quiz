@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="../css/fonts.css" />
     <link type="text/css" rel="stylesheet" href="../css/quiz.css" />
     <link type="text/css" rel="stylesheet" href="../css/drag_drop.css" />
+    <link type="text/css" rel="stylesheet" href="../css/share.css" />
 
     
     <link type="text/css" rel="stylesheet" href="../css/dragdrop_pairs.css" />
@@ -21,7 +22,6 @@
 
 <!--below is from http://scrollback.io enabling an instant private chat room called elearning to be set up -->
  <script>window.scrollback = {room:"elearning",embed:"toast",theme:"light",minimize:true};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
-
 
    
 </head>
@@ -56,7 +56,8 @@
                     </ul>
                   </div><!-- col-md-6 -->
                     <div class="col-md-3">
-                      <button type="submit" class="btn btn-primary margin_top_button button_css pull-right">Change Theme</button></div>
+                      <div class="share-button margin_top_share"></div>
+                      <button type="submit" class="btn btn-primary  button_css pull-right margin_top_20">Change Theme</button></div>
         </div><!-- row-fluid -->
 
      <div id="forum"> 
@@ -334,9 +335,18 @@
 <script type="text/javascript" src="../js/hide_video.js"></script>
 <script type="text/javascript" src="../js/angular_section.js"></script>
 <script type="text/javascript" src="../js/toggle_css.js"></script>
+<script type="text/javascript" src="../js/share.js"></script>
 
 
-
+<script>
+    var share = new Share(".share-button", {
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+  </script>
 
 
 </body>

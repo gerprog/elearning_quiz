@@ -228,4 +228,8 @@ display: none;
  
 }
 
-
+.entypo-export {
+  color: #505050 !important;
+   background: #fff !important;
+   font-weight: normal !important;
+}

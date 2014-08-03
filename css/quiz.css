@@ -155,7 +155,7 @@
   color: #0972f4;
 }
 
-li {
+#answer li {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
   font-size: 30px;
@@ -259,6 +259,11 @@ div[class*="emphasize-"] {
 
 .margin_top_button{
   margin-top: 15px;
+ 
+}
+
+.margin_top_share{
+  margin-top: 10px;
 }
 
 .margin_top_btm_15{
