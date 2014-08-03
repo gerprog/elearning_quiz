@@ -219,7 +219,7 @@
   background-color: #FFF;
   float: left;
   border-radius: 0px;
-  margin-top: -80px;
+  margin-top: -38px;
    margin-left: -15px;
    
    z-index: 11;
@@ -283,9 +283,9 @@ display: none;
     height: 450px;
     }
 
- .glyph_arrow  {
-  width: 20px;
-  height: 20px;
-  background-image: url(../glyphicons/png/glyphicons_177_fast_forward.png);
+#sticker_margin  {
+ width: 100px;
+ height: 100px;
+ margin-top:-80px;
  
 }
