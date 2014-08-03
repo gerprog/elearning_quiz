@@ -1,3 +1,5 @@
+/* from : https://github.com/peachananr/tip_cards */
+
 .tc_body {
   width: 100%;
   float: left;
@@ -47,6 +49,8 @@
 }
 
 .tc_inner_modal {
+  /*I added height to increase modal box size*/
+  height: 100px;
   margin: 20px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -81,6 +85,8 @@
   top: -100%;
   display: block;
   visibility: hidden;
+  /*below to try fix card sizes*/
+  /*height: 150px;*/
 }
 
 .tc_modal.tc_straighten {

@@ -165,6 +165,16 @@ margin-left: 10px;
 margin-bottom: 20px;
 }
 
+.flipcard_text{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
+font-size: 13pt;
+color: #505050;
+margin-top: 0px;
+margin-left: 10px;
+padding-bottom: 20px;
+}
+
 .facts_font_bw {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 18pt;
