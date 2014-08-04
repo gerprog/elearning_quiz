@@ -98,6 +98,8 @@
 
 .am-modal-content {
   visibility: hidden;
+  /*below added for padding*/
+  padding:20px;
 }
 
 .am-back > .am-modal-content > * {
