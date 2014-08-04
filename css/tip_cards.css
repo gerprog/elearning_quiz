@@ -50,7 +50,7 @@
 
 .tc_inner_modal {
   /*I added height to increase modal box size*/
-  height: 100px;
+  height: 110px;
   margin: 20px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

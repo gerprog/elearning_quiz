@@ -11,7 +11,8 @@
     <link type="text/css" rel="stylesheet" href="../css/drag_drop.css" />
     <link type="text/css" rel="stylesheet" href="../css/note_country.css" />
     <link type="text/css" rel="stylesheet" href="../css/note_bw.css" />
-        <link type="text/css" rel="stylesheet" href="../css/sticker.css" />
+    <link type="text/css" rel="stylesheet" href="../css/sticker.css" />
+    <link type="text/css" rel="stylesheet" href="../css/tip_cards.css" />
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="../css/adaptive-modal.css" />
     <link type="text/css" rel="stylesheet" href="../css/jquery-ui.structure.min.css" />
@@ -135,10 +136,12 @@
          
                <div id="dragzone_countries" class="col-md-8 dragzone_countries" style="margin-right:-15px;">
 
-                 <div id="welldone_countries" class="col-md-8">
+                 <div id="welldone_countries" class="col-md-12">
+                   <div id="sticker_margin">
                   <div class="sticker stickerOne example-1 margin_top_button" ></div>
+                </div>
                   <!--<span class="solar_facts">Well Done!</span><br /><br />-->
-                  <div class="col-md-8">
+                  <!--<div class="col-md-8">
                   <span class="country_facts">Countries in order of most visited:</span><br />
                   <span class="font_planet_name"> France</span> <span class="font_planet_para">76.8 million</span><br />
                   <span class="font_planet_name"> United States</span> <span class="font_planet_para">59.7 million</span><br />
@@ -148,8 +151,143 @@
                   <span class="font_planet_name"> UK</span> <span class="font_planet_para">28.1 million</span><br />
                   <span class="font_planet_name"> Turkey</span> <span class="font_planet_para">27 million</span><br />
                   <span class="font_planet_name"> Germany</span> <span class="font_planet_para">26.9 million</span>
-                 </div>
-                </div>
+                 </div>-->
+
+ <span class="solar_facts" style="float:left;">Flip the cards for more Country facts</span><br />
+        <ul class="tips">
+          <li>
+            <div class="tc_front">
+              <a href="#tip1"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip1" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">What is French DOM-TOM?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Nearly 20% of the territory of France lies outside Europe. Known as "DOM-TOM", where over 2.5 million French citizens live. </p>
+                
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip2"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip2" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">USA tourism is worth how much?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">The travel and tourism industry generates nearly $1.3 trillion each yaer and supports 8.2 million jobs.</p>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip3"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip3" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">The future of Chinese tourism</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Over the next 16 years, the number will soar to 1.8 billion by 2030.</p>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip4"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip4" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">Spain is not just sandy beaches</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Spain, the second most mountainous country of Europe, is full of and good ski resorts, with famous ski slopes all over Spain.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip5"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip5" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">Italy has an abundnace of..</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Italy is home to the greatest number of UNESCO World Heritage Sites in the world. High art and monuments are to be found everywhere in the country.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip6"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip6" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">the UK's hottest tourist hotspot?  </p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">The British Museum is the most popular attraction in the UK welcoming 6+ million people through it's doors.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip7"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip7" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">Turkey has a new type of tourism</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Health tourism. Turkey is rich with hot springs, healing waters and healing muds, which come highly recommended by the medical authorities.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip8"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip8" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading">Germany has a lot of..</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Castles! There are about 20,000 dotting the German landscape.</p>
+              </div>
+            </div>
+          </li>
+         
+        </ul>
+
+              </div><!--welldone_space -->
 
                   <div id="drag_empty1"></div> 
 
@@ -215,7 +353,24 @@
 <script type="text/javascript" src="../js/hide_notepad.js"></script>
 <script type="text/javascript" src="../js/toggle_css.js"></script>
 <script type="text/javascript" src="../js/sticker.min.js"></script>
+<script type="text/javascript" src="../js/tip_cards.min.js"></script>
 
+<script>
+$(".tips").tip_cards({
+    entrance: "bottom", // This option let you determine the direction of the fly in entrance animation when all the cards appears. Available options are "bottom", "left", "right", and "top". The default value is "bottom".
+    column: 4, // The plugin also let you define how the card will be displayed and aligned. You can set the column of cards here. The default value is 4. 
+    margin: "1%", // You can define the margins between each cards here. Percentage is currently support at this point. The default is "1%".
+    selector: "> li", // You can define a custom selector if you do not want to use ul and li tags. This option accepts the normal CSS selector. The default value is "> li" 
+    hoverTilt: "right", // Define the tilt direction when cards are hovered here. Available options are "right", "left", "up", and "down". The default value is "right".
+    triggerSelector: "> li a", // You can also define a custom selector for the trigger button here. The default value is "> li a" which will use the link inside a list as a trigger to activate the card. 
+    cardFlyDirection: "all", // You can define the card fly animation when the modal appears here. Available options are "all", "top", "bottom", "left", and "right". The default value is "all" which will have the cards fly in from all direction and stack up under the opened modal
+    closeButton: "X", // You can define the content of the close button here. Change this to false to prevent the plugin from automatically generating the close button. The default string is "X".
+    flipButton: "Flip", // You can define the content of the flip button here. Change this to false to prevent the plugin from automatically generating the flip button. The default string is "Flip".
+    navigation: true, // Set this to true to allow users to navigate from one card to another when modal is opened. Change it to false to disable it. The default value is true.
+    beforeOpen: null, // A callback function that will be executed before the modal opens.
+    afterOpen: null // A callback function that will be executed after the modal opens.
+  });
+  </script>
 
 </body>
 </html>
