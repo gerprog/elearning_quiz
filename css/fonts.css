@@ -159,7 +159,7 @@ margin-left: 0px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
 font-size: 18pt;
-color: #CC0099;
+color: #000;
 margin-top: 0px;
 margin-left: 10px;
 margin-bottom: 20px;
@@ -169,8 +169,8 @@ margin-bottom: 20px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
  /*font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;*/
 font-size: 13pt;
-color: #505050;
-margin-top: 0px;
+color: #0066CC;
+margin-top: 10px;
 margin-left: 10px;
 padding-bottom: 20px;
 }
