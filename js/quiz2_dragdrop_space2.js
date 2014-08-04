@@ -37,7 +37,7 @@ $(document).on("ready", function(){
 	
 	var welldone_display = (function() {
 		
-		if (score >= 1){
+		if (score >= 8){
 			$("#welldone_space").show("scale",{  percent: 100}, 1000 );
 			/*$("#welldone_bio").effect("shake",{  times: 0}, 0000);
 			$(".text_blk_22a").text(2000);*/

@@ -11,7 +11,8 @@
     <link type="text/css" rel="stylesheet" href="../css/drag_drop.css" />
     <link type="text/css" rel="stylesheet" href="../css/note_species.css" />
     <link type="text/css" rel="stylesheet" href="../css/note_bw.css" />
-        <link type="text/css" rel="stylesheet" href="../css/sticker.css" />
+    <link type="text/css" rel="stylesheet" href="../css/sticker.css" />
+    <link type="text/css" rel="stylesheet" href="../css/tip_cards.css" />
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="../css/adaptive-modal.css" />
     <link type="text/css" rel="stylesheet" href="../css/jquery-ui.structure.min.css" />
@@ -135,10 +136,12 @@
 
                <div id="dragzone_species" class="col-md-8 dragzone_species" style="margin-right:-15px;">
 
-                 <div id="welldone_species" class="col-md-8">
+                 <div id="welldone_species" class="col-md-12">
+                   <div id="sticker_margin">
                   <div class="sticker stickerOne example-1 margin_top_button" ></div>
+                </div>
                   <!--<span class="solar_facts">Well Done!</span><br /><br />-->
-                  <div class="col-md-8">
+                  <!--<div class="col-md-8">
                   <span class="species_facts">The oldest living things in years:</span><br />
                   <span class="font_species_name"> Cyanobacteria</span> <span class="font_species_para">3.5 Billion years </span><br />
                   <span class="font_species_name"> Sponge</span> <span class="font_species_para">580 Million years </span><br />
@@ -149,7 +152,142 @@
                   <span class="font_species_name"> Nautilus</span> <span class="font_species_para">235 Million years </span><br />
                   <span class="font_species_name"> Horseshoe Shrimp</span> <span class="font_species_para">200 Million years </span>
                  </div>
-                </div>
+                </div>-->
+
+                <span class="solar_facts" style="float:left;">Flip the cards for more Species facts</span><br />
+        <ul class="tips">
+          <li>
+            <div class="tc_front">
+              <a href="#tip1"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip1" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">Why are Cyanobacteria important? </p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">The oxygenation of Earth's atmosphere 2.45–2.32 billion years ago. The accumulation of molecular oxygen in was so significant that it is now commonly known as the Great Oxidation Event (GOE).</p>
+                
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip2"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip2" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">What is Sponge really?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">The Sea Sponge is not a coral, and is not a plant, rather it is classified as an animal which has neither brain nor central nervous system </p>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip3"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip3" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">What is unusual about Jellyfish?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">A jellyfish takes food in through its mouth which is located on the underside if its bell. Food is digested in a sac-like structure called a coelenteron or gastrovascular cavity. Waste material is passed out through the mouth. </p>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="tc_front">
+              <a href="#tip4"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip4" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">What is a horseshoe crab really?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Horseshoe crabs are not true crabs at all. They nare more closely related to arachnids (a group that includes spiders and scorpions) than to crustaceans</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip5"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip5" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">Why is the coelacanth important?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Many scientists believe that the unique characteristics of the coelacanth represent an early step in the evolution of fish to terrestrial four-legged animals like amphibians.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip6"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip6" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">How has Ginkgo Biloba survived so long?</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">Today, Ginkgo biloba is the only surviving member of the Ginkgo family.  This survival is said to be owed to its remarkable adaptability, resistance to disease, and to Buddhist monks who cultivated and preserved the trees.  </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip7"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip7" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">Nautilus can live how long? </p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">The nautilus has an unusually long life span for a cephalopod. It takes several years to reach sexual maturity and may live more than 15 years. </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tc_front">
+              <a href="#tip8"><span class="glyphicon glyphicon-chevron-right"></a>
+            </div>
+            <div class="tc_back"></div>
+
+            <div id="tip8" class="tip">
+              <div class="tc_front">
+                <p class="flipcard_heading15">The Horseshoe shrimp has as clever trick</p>
+               
+              </div>
+              <div class="tc_back">
+                <p class="flipcard_text">When the weather is dry the water pools in which they live dry up and the adults die. However, the eggs can survive in the sand even through periods of extreme dryness – and for up to 20 years.</p>
+              </div>
+            </div>
+          </li>
+         
+        </ul>
+                </div><!--welldone_space -->
 
                   <div id="drag_empty1"></div> 
 
@@ -215,9 +353,24 @@
 <script type="text/javascript" src="../js/toggle_css.js"></script>
 <script type="text/javascript" src="../js/toggle_sound.js"></script>
 <script type="text/javascript" src="../js/sticker.min.js"></script>
+<script type="text/javascript" src="../js/tip_cards.min.js"></script>
 
-
-
+<script>
+$(".tips").tip_cards({
+    entrance: "bottom", // This option let you determine the direction of the fly in entrance animation when all the cards appears. Available options are "bottom", "left", "right", and "top". The default value is "bottom".
+    column: 4, // The plugin also let you define how the card will be displayed and aligned. You can set the column of cards here. The default value is 4. 
+    margin: "1%", // You can define the margins between each cards here. Percentage is currently support at this point. The default is "1%".
+    selector: "> li", // You can define a custom selector if you do not want to use ul and li tags. This option accepts the normal CSS selector. The default value is "> li" 
+    hoverTilt: "right", // Define the tilt direction when cards are hovered here. Available options are "right", "left", "up", and "down". The default value is "right".
+    triggerSelector: "> li a", // You can also define a custom selector for the trigger button here. The default value is "> li a" which will use the link inside a list as a trigger to activate the card. 
+    cardFlyDirection: "all", // You can define the card fly animation when the modal appears here. Available options are "all", "top", "bottom", "left", and "right". The default value is "all" which will have the cards fly in from all direction and stack up under the opened modal
+    closeButton: "X", // You can define the content of the close button here. Change this to false to prevent the plugin from automatically generating the close button. The default string is "X".
+    flipButton: "Flip", // You can define the content of the flip button here. Change this to false to prevent the plugin from automatically generating the flip button. The default string is "Flip".
+    navigation: true, // Set this to true to allow users to navigate from one card to another when modal is opened. Change it to false to disable it. The default value is true.
+    beforeOpen: null, // A callback function that will be executed before the modal opens.
+    afterOpen: null // A callback function that will be executed after the modal opens.
+  });
+  </script>
 
 </body>
 </html>
