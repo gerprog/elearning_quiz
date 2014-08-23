@@ -2,7 +2,7 @@ $(document).on("ready", function(){
 	var score = 0
  
 	$('body');
-  /*function to allow only a specific piece of the puzzle to drop in the required div*/
+ 
 	var droppable_option = {
 		activeClass: 'ui-state-hover',
 		hoverClass: 'ui-state-active',
@@ -19,7 +19,7 @@ $(document).on("ready", function(){
 		}		
 	};
 	
-	/*will revert the piece of the puzzle to it's origin if not placed in the correct position */
+	
 	$( ".tokyo, .canton, .shanghai, .jakarta, .seoul, .delhi, .mumbai, .new_york" ).draggable({revert: 'invalid'});
 		
 	$(".bigrow1_cities").droppable($.extend({ accept: '.tokyo'}, droppable_option));

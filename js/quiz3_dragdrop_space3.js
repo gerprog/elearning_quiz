@@ -2,7 +2,7 @@ $(document).on("ready", function(){
 	var score = 0
  
 	$('body');
-  /*function to allow only a specific piece of the puzzle to drop in the required div*/
+  
 	var droppable_option = {
 		activeClass: 'ui-state-hover',
 		hoverClass: 'ui-state-active',
@@ -18,7 +18,7 @@ $(document).on("ready", function(){
 		}		
 	};
 	
-	/*will revert the piece of the puzzle to it's origin if not placed in the correct position */
+	
 	$( ".mercury, .mercury_fact, .venus, .venus_fact, .earth, .earth_fact, .mars, .mars_fact, .jupiter, .jupiter_fact, .saturn, .saturn_fact, .uranus, .uranus_fact, .neptune, .neptune_fact" ).draggable({revert: 'invalid'});
 		
 	$(".row1a").droppable($.extend({ accept: '.mercury'}, droppable_option));

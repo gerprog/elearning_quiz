@@ -2,7 +2,7 @@ $(document).on("ready", function(){
 	var score = 0
  
 	$('body');
-  /*function to allow only a specific piece of the puzzle to drop in the required div*/
+  
 	var droppable_option = {
 		activeClass: 'ui-state-hover',
 		hoverClass: 'ui-state-active',
@@ -18,7 +18,7 @@ $(document).on("ready", function(){
 		}		
 	};
 	
-	/*will revert the piece of the puzzle to it's origin if not placed in the correct position */
+	
 	$( ".france, .france_fact, .america, .america_fact, .china, .china_fact, .spain, .spain_fact, .italy, .italy_fact, .uk, .uk_fact, .turkey, .turkey_fact, .germany, .germany_fact" ).draggable({revert: 'invalid'});
 		
 	$(".row1a").droppable($.extend({ accept: '.france'}, droppable_option));

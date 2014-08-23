@@ -2,7 +2,7 @@ $(document).on("ready", function(){
 	var score = 0
  
 	$('body');
-  /*function to allow only a specific piece of the puzzle to drop in the required div*/
+  
 	var droppable_option = {
 		activeClass: 'ui-state-hover',
 		hoverClass: 'ui-state-active',
@@ -18,7 +18,7 @@ $(document).on("ready", function(){
 		}		
 	};
 	
-	/*will revert the piece of the puzzle to it's origin if not placed in the correct position */
+	
 	$( ".cyanobacteria, .cyanobacteria_fact, .sponge, .sponge_fact, .jellyfish, .jellyfish_fact, .horseshoe_crab, .horseshoe_crab_fact, .coelacanth, .coelacanth_fact, .gingko_biloba, .gingko_biloba_fact, .nautilus, .nautilus_fact, .horseshoe_shrimp, .horseshoe_shrimp_fact" ).draggable({revert: 'invalid'});
 		
 	$(".row1a").droppable($.extend({ accept: '.cyanobacteria'}, droppable_option));

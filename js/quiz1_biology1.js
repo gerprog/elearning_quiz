@@ -2,7 +2,7 @@
 $(document).on("ready", function(){
 $('body');
   var questions = [
-  /* JSON list of Q and A */
+  
 	{"text": "Q.1. Which species name translates as blue-green algae?", "answers": ["Cyanobacteria", "Coelacanth", "Gingko Biloba", "Nautilus"], "correct": "Cyanobacteria" },
 
 	{"text": "Q.2. Which species are hard to fossilize, as they're made of mostly water?", "answers": ["Jellyfish", "Horseshoe Crab", "Gingko Biloba", "Horseshoe Shrimp"], "correct": "Jellyfish" },
@@ -44,7 +44,7 @@ $('body');
 
 		$("#answer li").on("click", validate_answer);
 		
-		//this from: source= http://codereview.stackexchange.com/questions/11948/randomize-a-jquery-object-list to enable random mix of answers
+		//source= http://codereview.stackexchange.com/questions/11948/randomize-a-jquery-object-list for random answer
 		for (var $x=$("#answer li"), i=$x.length-1, j, temp; i>=0; i--) { j=Math.floor(Math.random()*(i+1)), temp=$x[i], $x[i]=$x[j], $x[j]=temp; }
 		$x.each(function(i, li) { $("#answer").append(li);
 		});
@@ -54,7 +54,7 @@ $('body');
 	
 
 	var validate_answer = (function () {
-	/* if the answer is correct the score increases */
+
 		if ($(this).text() == questions[score].correct) {
 			score++;
 	
@@ -71,11 +71,11 @@ $('body');
 				$('#next_button').show();
 				$('#slides');
 				$("#answer").empty();
-				// the countdown ends
+				
 				clearInterval(countdown_interval);
 			}	
 		} else {
-		// for the wrong answer it suggests to "try again" 
+		
 		  display_error();
 		}
 				display_score();
@@ -89,7 +89,7 @@ $('body');
 		$("#try").fadeIn(100).fadeOut(2000);
 
 		  $("#answer").fadeIn(200);
-		  // the countdown decreases here
+		  
 		  countdown --;
 	});
 	
@@ -103,14 +103,14 @@ $('body');
 		$("#countdown").text(countdown);
 	});
 	
-	//if the time is done can retry the quiz
+	
 	var game_end = (function()  {
 		$("#try").fadeIn(100);
 
 		  countdown --;
 	});
 	
-	// if the countdown is 0 the questions are cleared
+	
 	var countdown_interval = setInterval(function() {
 			display_countdown();
 			countdown--;
