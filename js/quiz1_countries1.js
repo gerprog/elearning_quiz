@@ -1,4 +1,4 @@
-
+/* some of this code is built upon a previous project I worked on in NCI. see bibliography */
 $(document).on("ready", function(){
 $('body');
   var questions = [
